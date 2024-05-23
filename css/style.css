@@ -1,0 +1,29 @@
+
+body{
+    background-image:url(../img/astronaut-black-hole-deep-space-universe-cosmos-surreal-1920x1200-6743.jpg);
+    color:aquamarine;
+}
+
+form {
+    width: 50%;
+    margin-left: 25%;
+}
+
+form h1 {
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+}
+
+#Suggestion, #Feedback{
+    height: 10rem;
+    width: 30rem;
+}
+
+#submit{
+    margin-left: 37%;
+    width: 10rem;
+    height: 2rem;
+}

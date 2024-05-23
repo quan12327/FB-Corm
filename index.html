@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>WEBSITE</h1>
+    <form>
+        <h1>New Customer Registration Form</h1>
+        <hr>
+        <fieldset>
+            <legend>Customer Details:</legend>
+            <label for="Fullname">Full name:</label>
+            <br>
+            <input type="text" name="fullname" id="Fullname" size="50">
+            <br><br>
+            <label for="birthdate">Birth date:</label>
+            <br>
+            <input type="date" id="birthdate" name="birthdate" max="1980-1-1">
+            <br><br>
+            <label for="Address">Address:</label>
+            <br>
+            <input type="text" id="Address" name="Address" size="50">
+            <br><br>
+            <label for="Phone Number">Phone Number:</label>
+            <br>
+            <input type="tel" id="Phone Number" name="Phone Number" size="50">
+            <br><br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="Email" name="Emai" size="50">
+            <p>How did you hear about us?</p>
+            <input type="checkbox" id="newpapers" name="ads">
+            <label for="newpapers">Newpapers</label><br>
+            <input type="checkbox" id="facebookAds" name="ads">
+            <label for="facebookAds">Facebook</label><br>
+            <input type="checkbox" id="Youtube" name="ads"> 
+            <label for="Youtube">Youtube</label><br>
+            <input type="checkbox" id="Other" name="ads">
+            <label for="Other">Other</label>
+            <br><br>
+            <label for="Feedback">Feedback about us:</label>
+            <br>
+            <textarea name="Feedback" id="Feedback"></textarea>
+            <br>
+            <label for="Suggestion">Suggestions if any for further improvement:</label>
+            <br>
+            <textarea name="Suggestion" id="Suggestion"></textarea>
+            <br>
+            <p>Will you be willing to recommend us?</p>
+            <input type="radio" id="recommend-yes" name="recommend">
+            <label for="recommend-yes">Yes</label><br>
+            <input type="radio" id="recommend-no" name="recommend">
+            <label for="recommend-no">No</label><br>
+            <input type="radio" id="recommend-maybe" name="recommend">
+            <label for="recommend-maybe">Maybe</label><br><br>
+            <input type="submit" value="Submit" id="submit">
+        </fieldset>
+    </form>
 </body>
+
 </html>
